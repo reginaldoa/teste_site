@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0d58786643.js" crossorigin="anonymous"></script>
+    <title>FSR Analitycs</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#"><img class="logo" src="img/logo.png"></a>
+                <ul class="navbar-items">
+                   <!--  
+                    <li><a href="#">Planos</a></li>
+                    <li><a href="#" class="default-btn">Login</a></li> -->
+                    <li><a href="#modal">Contato</a></li>
+                    <li>
+                        <a href="#" onclick="openPowerBIPopup(); return false;">
+                            Veja nosso Portfólio
+                        </a> </li>
+                    <li><a href="artigos.html">Artigos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- Modal de Contato (inicialmente oculto) -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Entre em contato</h2>
+                <p>Mande uma mensagem para nós conversamos sobre a melhor análise do seu negócio.</p>
+
+
+                <a href="#" class="close">&times;</a>
+                <h2>WhatsApp: <a href="https://wa.me/5511970907249?text=Ol%C3%A1%2C+estou+vindo+atrav%C3%A9s+do+site%2C+gostaria+de+fazer+um+or%C3%A7amento+com+a+FSR" target="_blank">(11)97090-7249</a></h2>
+                <h3>E-mail:<a href="mailto:gestaoti@febrapo.org.br">fabio1.a.soares@hotmail.com</a></h3>
+
+                <p></p>
+            </div>
+        </div>
+        
+        <main>
+            <div class="main-banner">
+               <!-- <h1>FSR Analitycs</h1>
+                <p>Nos modelamos para você.</p>-->
+            </div>
+            <section class="specialities-container">
+                <ul>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Segurança</h3>
+                        <p>Temos uma equipe, que acima de tudo, respeita seus dados, nossas análises e forma de trabalhar são de acordo com a lei LGPD.</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-rocket"></i>
+                        <h3>Velocidade</h3>
+                        <p>Com prazos e orçamentos realistas, entregamos análises que lhe darão insights de como gerir melhor o seu negócio e ter maiores retornos financeiros. </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        <h3>Suporte</h3>
+                        <p>Você pode optar por ter o nosso suporte, mesmo após a entrega, entre em contato conosco, e veja as possibilidades.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="pricing-container">
+                <h1>Conheça nossos serviços</h1>
+                <p>E escolha o melhor para o seu negócio.</p>
+                <div class="plans-container">
+                    <div class="plan">
+                        <ul>
+                            <li class="price">Excel</li>
+                            <li class="plan-name">Padrão</li>
+                            <li>VBA</li>
+                            <li>Power Query</li>
+                            <li>Tabelas dinâmicas</li>
+                            <li> </li>
+                            <li> </li>
+                            <li> </li>
+                            <li class="plan-btn"> <a href="https://wa.me/5511970907249?text=Ol%C3%A1%2C+estou+vindo+atrav%C3%A9s+do+site%2C+gostaria+de+fazer+um+or%C3%A7amento+com+a+FSR" target="_blank">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">Power BI</li>
+                            <li class="plan-name">Padrão</li>
+                            <li>Dashboards</li>
+                            <li>DAX avançada</li>
+                            <li>Relacionamentos</li>
+                            <li></li>
+                            <li> </li>
+                            <li> </li>
+                            <li class="plan-btn"> <a href="https://wa.me/5511970907249?text=Ol%C3%A1%2C+estou+vindo+atrav%C3%A9s+do+site%2C+gostaria+de+fazer+um+or%C3%A7amento+com+a+FSR" target="_blank">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price recommended">SQL</li>
+                            <li class="plan-name">Padrão</li>
+                            <li>SQL server</li>
+                            <li>MYSQL</li>
+                            <li>Banco de dados na nuvem</li>
+                            <li></li>
+                            <li></li>
+                            <li> </li>
+                            <li class="plan-btn recommended"><a href="https://wa.me/5511970907249?text=Ol%C3%A1%2C+estou+vindo+atrav%C3%A9s+do+site%2C+gostaria+de+fazer+um+or%C3%A7amento+com+a+FSR" target="_blank">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">Python</li>
+                            <li class="plan-name">Padrão</li>
+                            <li>Automação de tarefas</li>
+                            <li>Análise de dados</li>
+                            <li>Integração sistêmica</li>
+                            <li></li>
+                            <li></li>
+                            <li> </li>
+                            <li class="plan-btn"><a href="https://wa.me/5511970907249?text=Ol%C3%A1%2C+estou+vindo+atrav%C3%A9s+do+site%2C+gostaria+de+fazer+um+or%C3%A7amento+com+a+FSR" target="_blank">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="searchdomain-container">
+                <h2>Tipos de análises</h2>
+                <p>Nós trabalhamos com diversos tipos de análises.</p>
+                <div class="analysis-item">
+                    <h3>Análise Descritiva</h3>
+                    <p>Fase inicial do estudo dos dados coletados. Utiliza métodos de Estatística Descritiva para organizar, resumir e descrever os aspectos importantes de um conjunto de características observadas ou comparar tais características entre dois ou mais conjuntos.</p>
+                </div>
+                <div class="analysis-item">
+                    <h3>Análise Prescritiva</h3>
+                    <p>Utiliza modelos matemáticos alinhados à gestão de negócios para gerar recomendações de ações de forma automática ou semiautomática. Visa otimizar as estratégias adotadas pelas empresas e alcançar melhores resultados no menor espaço de tempo.</p>
+                </div>
+                <div class="analysis-item">
+                    <h3>Análise Preditiva</h3>
+                    <p>Ramo da análise avançada que faz previsões sobre resultados futuros usando dados históricos combinados com modelagem estatística, técnicas de mineração de dados e aprendizado de máquina.</p>
+                </div>
+                <div class="analysis-item">
+                    <h3>Análise de Diagnóstico</h3>
+                    <p>Análise avançada para determinar por que um evento passado ocorreu. Analisa dados históricos e usa técnicas como descoberta de dados para identificar tendências e  possíveis padrões na análise de dados do seu negócio.</p>
+                </div>
+            </section>
+
+
+            <section class="contact-container">
+                <h2>Sobre nós</h2>
+                <h3>Conheça um pouco sobre a FSR Analitycs.</h3>
+                
+                <p>Sobre a FSR Analytics
+                    Somos a FSR Analytics, uma empresa nova no mercado, especializada em análise de dados. Com três anos de experiência, estamos em busca de novos clientes e oportunidades para expandir nossos serviços.
+                    
+                    Nossa jornada começou em um escritório de advocacia, onde tive o prazer de conhecer o Reginaldo. Na época, éramos colegas de equipe e compartilhávamos o interesse pela análise de dados. Logo percebemos o potencial de nossa parceria e decidimos unir forças para atender e desenvolver uma carteira de clientes.</p>
+            
+              
+                </section>
+        </main>
+        <footer>
+            <p> FSR Analitycs@2024</p>
+        </footer>
+    </div>
+</body>
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var analysisItems = document.querySelectorAll(".analysis-item");
+        analysisItems.forEach(function(item) {
+            item.style.opacity = "1";
+        });
+    });
+</script>
+
+<script>
+    function openPowerBIPopup() {
+        var url = "https://app.powerbi.com/view?r=eyJrIjoiYTZkZGEyNmYtZGE1ZC00MWFhLTg2YWUtZTEzMzg0NDg4NjNlIiwidCI6IjMyNTM2Y2E0LTFjNjctNDgzYS04NTUwLTQ1NTk1NzgzOGQxMSJ9";
+        var width = 1140;
+        var height = 541.25;
+        var leftPosition = (screen.width - width) / 2;
+        var topPosition = (screen.height - height) / 2;
+        var options = "toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=" + width + ", height=" + height + ", top=" + topPosition + ", left=" + leftPosition;
+        window.open(url, "_blank", options);
+    }
+</script>
+
+</html>
