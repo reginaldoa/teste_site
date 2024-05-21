@@ -1,5 +1,51 @@
 /* general - tudo o que for em comum */
 
+
+/* Adicione este estilo para o ícone de hambúrguer */
+.menu-icon {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px; /* Adicione margem à esquerda */
+}
+
+/* Estilos para o ícone de hambúrguer quando o menu está aberto */
+.menu-icon.open {
+    transform: rotate(90deg); /* Gire o ícone */
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Posicione o submenu abaixo do item pai */
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+/* Exibir o submenu ao passar o mouse sobre o item */
+.navbar-items li:hover .submenu {
+    display: block;
+}
+
+/* Estilo dos itens do submenu */
+.submenu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    transition: background-color 0.3s;
+}
+
+.submenu a:hover {
+    background-color: #555;
+}
+
+
+
 body, textarea{
     margin: 0;
     padding: 0;
